@@ -1,8 +1,6 @@
 @Library('piper-lib-os') _
-
 node()
 {
-/**
 stage('Prepare')	
 	checkout scm
 	stage('Clone'){
@@ -17,7 +15,6 @@ stage('Prepare')
 	)
 	println "end - gctsCloneRepository"
 	}
-	**/
 stage('RunUnitTest')
 	gctsExecuteABAPUnitTests(
 		script: this,
@@ -26,7 +23,6 @@ stage('RunUnitTest')
 		abapCredentialsId: 'ABAPUserPasswordCredentialsId',
 		repository: 'santiagogm1995-gctstest'
 	)
-
 stage('Deploy')
 	gctsDeploy(
 		script: this,
