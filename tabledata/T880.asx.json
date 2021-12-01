@@ -1,0 +1,31 @@
+[
+ {
+  "table":"T880",
+  "data":
+  [
+   {
+    "MANDT":"210",
+    "RCOMP":"000001",
+    "NAME1":"Gesellschaft G00000!",
+    "CNTRY":"DE",
+    "NAME2":"",
+    "LANGU":"D",
+    "STRET":"Neurottstrasse 16",
+    "POBOX":"",
+    "PSTLC":"69190",
+    "CITY":"Walldorf",
+    "CURR":"EUR",
+    "MODCP":"",
+    "GLSIP":"",
+    "RESTA":"",
+    "RFORM":"",
+    "ZWEIG":"",
+    "MCOMP":"",
+    "MCLNT":0,
+    "LCCOMP":"",
+    "STRT2":"",
+    "INDPO":""
+   }
+  ]
+ }
+]
